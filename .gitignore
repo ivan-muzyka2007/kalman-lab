@@ -1,0 +1,22 @@
+# данные и результаты — не в git
+data/*.BIN
+data/*.tlog
+data/*.ulg
+runs/
+*.csv
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# c++
+build/
+*.o
+*.so
+
+# системное
+.DS_Store
+.vscode/
+*.swp
