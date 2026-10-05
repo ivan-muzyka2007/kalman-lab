@@ -20,3 +20,16 @@ build/
 .DS_Store
 .vscode/
 *.swp
+
+# логи SITL, если запускали sim_vehicle из каталога проекта
+logs/
+
+# тесты (появятся на неделях 7–8)
+.pytest_cache/
+
+# сборка C++ (появится на неделе 7)
+CMakeCache.txt
+CMakeFiles/
+
+# логи в нижнем регистре — git различает регистр: *.BIN и *.bin это разные правила
+*.bin
