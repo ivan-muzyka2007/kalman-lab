@@ -52,6 +52,7 @@ python src/logdata.py --demo
 
 # 4. графики по демо-данным
 python src/plot_basic.py --demo --out figures/demo.png
+```
 ---
 
 ## Как это работает
